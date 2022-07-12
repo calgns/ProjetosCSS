@@ -2,10 +2,35 @@
 
 body{
   font-family: 'Nunito', sans-serif;
-  background-color: #ccc;
+  background-color: #c4f1ff;
   justify-content: center;
   align-items: center;
   height: 100vh;
   display: grid;
   margin: 0;
+}
+
+.container{
+  width: 50%;
+  transform: translateX(30%);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container .inner{
+  background-color: #13b5c7;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.container .inner h1{
+  color: #fff;
+  margin: 0;
+}
+
+.container .inner p{
+  color: #fff;
+  font-size: 1.2rem;
+
 }
