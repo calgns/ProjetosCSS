@@ -10,7 +10,7 @@ body{
   margin: 0;
 }
 .container .inner{
-  clip-path: circle(10% at 90% 20%);
+  clip-path: circle(10% at 85% 21%);
   transition: all .5s ease-in-out; 
   background-color: #16e7eb;
   border-radius: 10px;
@@ -26,22 +26,25 @@ body{
 
 .inner span{
   transition: color .5s ease-in-out;
+  transition: opacity .3s ease;
   position: relative;
-  font-weight: bold;
-  margin-right: 5.5%;
-  margin-top: -4px;
-  font-size: 2rem;
+  margin-right: 10.7%;
+  font-weight: bolder;
+  font-size: 2.5rem;
   color: #fff;
   float: right;
 }
 
+.inner:hover span{opacity: 0;}
+
 .container .inner h1{
   color: #fff;
+  font-size: 2.5rem;
   margin: 0;
 }
 
 .container .inner p{
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 
 }
