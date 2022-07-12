@@ -9,25 +9,30 @@ body{
   display: grid;
   margin: 0;
 }
-
-.container{
-  width: 60%;
-  transform: translateX(30%);
-  border-radius: 10px;
-  background-color: #fff;
-}
-
 .container .inner{
-  transition: all .5s ease-in-out;
-  clip-path: circle(10% at 0% 0%);
-  background-color: #13b5c7;
+  clip-path: circle(10% at 90% 20%);
+  transition: all .5s ease-in-out; 
+  background-color: #16e7eb;
   border-radius: 10px;
+  cursor: pointer;
   padding: 1rem;
-  width: 100%;
+  width: 400px;
 }
 
-.container:hover .inner{
+.inner:hover{
   clip-path: circle(75%);
+  background-color: rgb(36, 248, 188);
+}
+
+.inner span{
+  transition: color .5s ease-in-out;
+  position: relative;
+  font-weight: bold;
+  margin-right: 5.5%;
+  margin-top: -4px;
+  font-size: 2rem;
+  color: #fff;
+  float: right;
 }
 
 .container .inner h1{
