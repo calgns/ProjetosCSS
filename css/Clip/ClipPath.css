@@ -11,17 +11,23 @@ body{
 }
 
 .container{
-  width: 50%;
+  width: 60%;
   transform: translateX(30%);
   border-radius: 10px;
   background-color: #fff;
 }
 
 .container .inner{
+  transition: all .5s ease-in-out;
+  clip-path: circle(10% at 0% 0%);
   background-color: #13b5c7;
   border-radius: 10px;
   padding: 1rem;
   width: 100%;
+}
+
+.container:hover .inner{
+  clip-path: circle(75%);
 }
 
 .container .inner h1{
