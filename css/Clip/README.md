@@ -17,7 +17,7 @@ quanto maior o valor, mais ele expoe o elemento.
 ## Propriedade at
 o circle aceita mais uma propriedade o "at" que diz a posição que ele vai estar
 
-### clip-path: circle(40% at 85% 21%);
+### clip-path: circle(40% at 85% 21%); (exposição% esquerda% cima%)
 
 50% = ao meio 
 
@@ -47,6 +47,6 @@ quanto maior o valor, MENOS ele expoe o elemento o oposto do circle.
 ## Exemplo logo abaixo
 
 <div>
-  <h3>Circle 10% a 100%</h3>
+  <h3>inset esquerda 10% a 100%</h3>
   <img width="500" height="300" src="../../imgs/css/ClipLeftRight/LeftRight.gif">
 </div>
