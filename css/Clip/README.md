@@ -42,11 +42,11 @@ quanto maior o valor, MENOS ele expoe o elemento o oposto do circle.
 
 ## como é escrito?
 
-### clip-path: inset(0% 0% 0% 100%); (cima% direita% baixo% esquerda%)
+### clip-path: inset(50% 50% 100% 50%); (cima% direita% baixo% esquerda%)
  
 ## Exemplo logo abaixo
 
 <div>
-  <h3>inset esquerda 10% a 100%</h3>
-  <img width="500" height="300" src="../../imgs/css/ClipLeftRight/LeftRight.gif">
+  <h3>inset pirueta</h3>
+  <img width="500" height="300" src="../../imgs/css/Inset/inset.gif">
 </div>
