@@ -32,17 +32,6 @@ body{
   clip-path: inset(0% 0% 0% 0%);
 }
 
-.inner span{
-  transition: color .5s ease-in-out;
-  position: relative;
-  font-weight: bold;
-  margin-right: 5.5%;
-  margin-top: -4px;
-  font-size: 2rem;
-  color: #fff;
-  float: right;
-}
-
 .container .inner h1{
   color: #fff;
   margin: 0;
