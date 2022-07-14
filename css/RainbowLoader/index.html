@@ -5,196 +5,217 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0"/>
+			content="width=device-width, initial-scale=1.0"
+		/>
 		<title>Rainbow Loader</title>
 	</head>
-  <style>
-    *,*::after,*::backdrop{
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-    }
+	<style>
+		*,
+		*::after,
+		*::backdrop {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
 
-    body{
-      background-color: #151320;
-      color: antiquewhite;
-    }
+		body {
+			background-color: #151320;
+			color: antiquewhite;
+		}
 
-    section{
-      font-family: monospace;
+		section {
+			font-family: monospace;
+			margin-top: 50px;
+			height: 200vh;
+		}
+
+		section h1,
+		div {
+			text-align: center;
+		}
+
+		section h1 {
+			font-size: 3rem;
+			margin-bottom: 100px;
+		}
+
+		section h2 {
+			font-size: 2rem;
+		}
+
+		.container {
       margin-top: 50px;
-      height: 100vw;
-    }
+			margin: 0 auto;
+		}
 
-    section h1, div{text-align: center;}
+		.flex {
+			display: flex;
+		}
 
-    section h1{
-      font-size: 3rem;
-      margin-bottom:100px;
-    }
-
-    section h2{
-      font-size: 2rem;
-    }
-
-    .container{
-      margin: 0 auto;
-    }
-
-    
-    .Rainbow{
-      top: 10vh;
-      width: 200px;
-      height: 200px;
-      margin: 0 auto;
-      overflow: hidden;
-      position: relative;
-      border-radius: 50%;
-      box-shadow: 0px 20px 35px rgba(0,0,0, .5);
-    }
-
-    .Rainbow::before{
-      content: "";
-      height: 450px;
-      width: 450px;
-      top: -120px;
-      left: -150px;
-      border-radius: 12px;
-      position: absolute;
-      background: conic-gradient(
-        hsl(342, 100%, 50%),
-        hsl(34, 100%, 50%),
-        hsl(56, 100%, 56%),
-        hsl(125, 82%, 56%),
-        hsl(246, 80%, 60%),
-        hsl(298, 98%, 56%),
-        hsl(360, 100%, 45%)
-      );
-      animation: spin 1s infinite linear;
-    }
-
-     @keyframes spin{
-      100%{
-        transform: rotate(-360deg);
+    @media (max-width: 768px) {
+      .flex{
+        flex-direction: column;
+      }
+      .container:nth-child(2){
+        padding: 90px;
       }
     }
 
-    .Rainbow::after{
-      content: 'TOO RASH';
-      position: absolute;
-      background-color: #1c1b29;
-      border-radius: 50%;
-      font-size: 1.3rem;
-      height: 95%;
-      width: 95%;
-      top: 3%;
-      left: 2.5%;
-      color: aliceblue;
-      font-family:  century ,helvetica, arial, sans-serif;
-      letter-spacing: 6px;
-      place-items: center;
-      display: grid;
-    }
-    
-    .container-loader{ 
-      margin-top: 50px;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: relative;
-      display: flex;
-    }
+		/*FIXME: Rainbow*/
 
-    .loader{
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      animation: loader linear 2s infinite; 
-    }
+		.Rainbow {
+			top: 10vh;
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			overflow: hidden;
+			position: relative;
+			border-radius: 50%;
+			box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.5);
+		}
 
-    @keyframes loader {
-      0%{
-        transform: rotate(0deg);
-        box-shadow: 1px 5px 2px #e65c00;
-      }
-      50%{
-        transform: rotate(180deg);
-        box-shadow: 1px 5px 2px #18b201;
-      }
-      100%{
-        transform: rotate(360deg);
-        box-shadow: 1px 5px 2px #0456c8;
-      }
-    }
+		.Rainbow::before {
+			content: "";
+			height: 450px;
+			width: 450px;
+			top: -120px;
+			left: -150px;
+			border-radius: 12px;
+			position: absolute;
+			background: conic-gradient(
+				hsl(342, 100%, 50%),
+				hsl(34, 100%, 50%),
+				hsl(56, 100%, 56%),
+				hsl(125, 82%, 56%),
+				hsl(246, 80%, 60%),
+				hsl(298, 98%, 56%),
+				hsl(360, 100%, 45%)
+			);
+			animation: spin 1s infinite linear;
+		}
 
-    .loader::before{
-      position: absolute;
-      content: '';
-      left: 0;
-      top: 0;
-      border-radius: 50%;
-      height: 100%;
-      width: 100%;
-      box-shadow: 0 0 5px black;
-    }
+		@keyframes spin {
+			100% {
+				transform: rotate(-360deg);
+			}
+		}
 
-    span{
-      color: #737373;
-      font-size: 1.5rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      line-height: 200px;
-      animation: text 2s ease-in-out infinite;
-    }
-    @keyframes text {
-      50%{ 
-        color: #000;
-      }
-    }
+		.Rainbow::after {
+			content: "TOO RASH";
+			position: absolute;
+			background-color: #1c1b29;
+			border-radius: 50%;
+			font-size: 1.3rem;
+			height: 95%;
+			width: 95%;
+			top: 3%;
+			left: 2.5%;
+			color: aliceblue;
+			font-family: century, helvetica, arial, sans-serif;
+			letter-spacing: 6px;
+			place-items: center;
+			display: grid;
+		}
 
+		/*FIXME: Neon*/
 
-    .spinner{ 
-      margin-top: 65px;
-      width: 180px;
-      height: 180px;
-      border: 5px solid red;
-      border-top-color: pink;
-      border-radius: 50%;
-      animation: spin .4s ease-in-out infinite;
-    }
-    @keyframes spin {
-      0%{
-        transform: rotate(360deg);
-      }
-    }
+		.container-loader {
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			position: relative;
+			margin-top: 50px;
+			display: flex;
+		}
 
-  </style>
+		.loader {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			border-radius: 50%;
+			animation: loader linear 2s infinite;
+		}
+
+		@keyframes loader {
+			0% {
+				transform: rotate(0deg);
+				box-shadow: 1px 5px 2px #e65c00;
+			}
+			50% {
+				transform: rotate(180deg);
+				box-shadow: 1px 5px 2px #18b201;
+			}
+			100% {
+				transform: rotate(360deg);
+				box-shadow: 1px 5px 2px #0456c8;
+			}
+		}
+
+		.loader::before {
+			position: absolute;
+			content: "";
+			left: 0;
+			top: 0;
+			border-radius: 50%;
+			height: 100%;
+			width: 100%;
+			box-shadow: 0 0 5px black;
+		}
+
+		div.container-loader span {
+			color: #737373;
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			line-height: 200px;
+			animation: text 2s ease-in-out infinite;
+		}
+		@keyframes text {
+			50% {
+				color: #000;
+			}
+		}
+
+		/*FIXME:(Normal)*/
+
+		.spinner {
+			margin-top: 65px;
+			width: 180px;
+			height: 180px;
+			border: 5px solid red;
+			border-top-color: pink;
+			border-radius: 50%;
+			animation: spin 0.4s ease-in-out infinite;
+		}
+		@keyframes spin {
+			0% {
+				transform: rotate(360deg);
+			}
+		}
+	</style>
 	<body>
-    <section>
-      <h1>Loaders</h1>
+		<section>
+			<h1>Loaders</h1>
 
-      <div style="display: flex;">
-        <div class="container">
-          <h2>Rainbow</h2>
-          <div class="Rainbow"></div>
-        </div>
+			<div class="flex">
+				<div class="container">
+					<h2>Rainbow</h2>
+					<div class="Rainbow"></div>
+				</div>
 
-        <div class="container">
-          <h2>Neon</h2>
-          <div class="container-loader">
-            <div class="loader"></div>
-            <span>loading...</span>
-          </div>
-        </div>
+				<div class="container">
+					<h2>Neon</h2>
+					<div class="container-loader">
+						<div class="loader"></div>
+						<span>loading...</span>
+					</div>
+				</div>
 
-        <div class="container">
-          <h2>Normal</h2>
-          <div class="spinner"></div>
-        </div>
-
-      </div>
-
-    </section>
-  </body>
+				<div class="container">
+					<h2>Normal</h2>
+					<div class="spinner"></div>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
