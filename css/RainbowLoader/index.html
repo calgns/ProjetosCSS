@@ -17,7 +17,30 @@
 
     body{
       background-color: #151320;
+      color: antiquewhite;
     }
+
+    section{
+      font-family: monospace;
+      margin-top: 50px;
+      height: 100vw;
+    }
+
+    section h1, div{text-align: center;}
+
+    section h1{
+      font-size: 3rem;
+      margin-bottom:100px;
+    }
+
+    section h2{
+      font-size: 2rem;
+    }
+
+    .container{
+      margin: 0 auto;
+    }
+
     
     .Rainbow{
       top: 10vh;
@@ -72,9 +95,36 @@
       place-items: center;
       display: grid;
     }
+    
+    .container-loader{ 
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      display: flex;
+    }
+
 
   </style>
 	<body>
-    <div class="Rainbow"></div>
+    <section>
+      <h1>Loaders</h1>
+
+      <div style="display: flex;">
+        <div class="container">
+          <h2>Rainbow</h2>
+          <div class="Rainbow"></div>
+        </div>
+
+        <div class="container">
+          <h2>Neon</h2>
+          <div class="container-loader">
+            <div class="loader"></div>
+            <span>loading...</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </body>
 </html>
