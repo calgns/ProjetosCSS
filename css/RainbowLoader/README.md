@@ -163,4 +163,32 @@ line-height funciona como margin top nesse caso
     }
   }
 ```
+<br/>
+<h1>Loader Simple</h1>
 
+<div style="width:400px; height:400px;">
+  <img src="../../imgs/css/loaders/normal.gif" alt="Rainbow Loader">
+</div>
+
+# receita simples e facil
+
+## estrutura
+basicamente adiciona altura, largura, uma border, aplica cor, mas na top uma diferente e no keyframes um valor definitivo como 100% pra girar pra direita ou 0% pra girar na esquerda.
+```css
+  .spinner {
+    margin-top: 65px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid red;
+    border-top-color: pink;
+    border-radius: 50%;
+    animation: spin 0.4s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(360deg);
+    }
+  }
+
+```
