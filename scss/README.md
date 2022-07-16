@@ -28,7 +28,7 @@ body{
 
 ```
 
-## Estilização dos flocos
+## Estilizar os flocos
 
 ```scss
 .flake {
@@ -60,7 +60,11 @@ body{
   }
 }
 ```
- 
+#### o --size está vinculado a width e height o que significa que se você o altera em qulquer parte do codigo a width e height daquela parte especifica vai ser alterada.
+
+#### o $odds está adicionando o efeito de desfoque, embaçar a cada 1 floco dando o valor 2px, a cada 3 com valor de 4px e por ai vai até de 7 em sete.
+
+#### o @for está add uma posição aleatoria para cada um deles alem de estar chamando a animation.
 
 ```scss
 
