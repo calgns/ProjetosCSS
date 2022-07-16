@@ -28,9 +28,39 @@ body{
 
 ```
 
-```scss
+## Estilização dos flocos
 
+```scss
+.flake {
+  --size: 2vw;
+  width: var(--size);
+  height: var(--size);
+  background: blanchedalmond;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+
+
+  $odds: (1,3,5,7);
+  @each $u in $odds {
+    &:nth-child(#{$u}n) {
+      filter: blur(#{$u + 1}px);
+    }
+  }
+
+  @for $i from 1 through 50 {
+    &:nth-child(#{$i}){
+      --size: #{random(4) * 0.3}vw;
+      --left-in: #{random(20)-10}vw;
+      --left-out: #{random(20)-10}vw;
+      left: #{random(100)}vw;
+      animation: cair #{5 + random(20)}s linear infinite;
+      animation-delay: -#{random(20)}s;
+    }
+  }
+}
 ```
+ 
 
 ```scss
 
