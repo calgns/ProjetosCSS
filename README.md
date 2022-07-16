@@ -5,6 +5,13 @@
 <br/>
 
 <div align="center">
+  <h1>Snow flakes</h1>
+  <img src="imgs/scss/snowing.gif">
+</div>
+
+<br/>
+
+<div align="center">
   <h1>Loaders/spinner</h1>
   <img src="imgs/css/loaders/rainbow.gif">
 </div>
