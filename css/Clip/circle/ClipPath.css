@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
 
 body{
-  font-family: 'Nunito', sans-serif;
-  background-color: #c4f1ff;
+  font-family: Courier, monospace;
+  background-color: #619b98;
   justify-content: center;
   align-items: center;
   height: 100vh;
   display: grid;
   margin: 0;
 }
+
+.container{position: relative;}
+
 .container .inner{
-  clip-path: circle(10% at 85% 21%);
+  clip-path: circle(9% at 70% 23%);
   transition: all .5s ease-in-out; 
-  background-color: #16e7eb;
+  background-color: #4f16eb;
   border-radius: 10px;
   cursor: pointer;
   padding: 1rem;
@@ -21,16 +24,17 @@ body{
 
 .inner:hover{
   clip-path: circle(75%);
-  background-color: rgb(36, 248, 188);
+  background-color: rgb(93, 36, 248);
 }
 
 .inner span{
   transition: color .5s ease-in-out;
   transition: opacity .3s ease;
-  position: relative;
-  margin-right: 10.7%;
+  position: absolute;
+  top: 10%;
+  left: 67%;
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   color: #fff;
   float: right;
 }
@@ -45,6 +49,6 @@ body{
 
 .container .inner p{
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 
 }
