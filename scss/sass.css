@@ -16,505 +16,517 @@ body {
   position: absolute;
   top: -5vh;
 }
+.flake:nth-child(1n) {
+  filter: blur(2px);
+}
+.flake:nth-child(3n) {
+  filter: blur(4px);
+}
+.flake:nth-child(5n) {
+  filter: blur(6px);
+}
+.flake:nth-child(7n) {
+  filter: blur(8px);
+}
 .flake:nth-child(1) {
-  --size: 0.9vw;
-  --left-in: 5vw;
-  --left-out: 9vw;
-  left: 6vw;
-  -webkit-animation: cair 17s linear infinite;
-          animation: cair 17s linear infinite;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
+  --size: 0.6vw;
+  --left-in: 8vw;
+  --left-out: -6vw;
+  left: 43vw;
+  -webkit-animation: cair 13s linear infinite;
+          animation: cair 13s linear infinite;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
 }
 .flake:nth-child(2) {
   --size: 0.3vw;
-  --left-in: -6vw;
-  --left-out: 2vw;
-  left: 50vw;
-  -webkit-animation: cair 25s linear infinite;
-          animation: cair 25s linear infinite;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
-}
-.flake:nth-child(3) {
-  --size: 0.3vw;
-  --left-in: -1vw;
-  --left-out: -7vw;
-  left: 60vw;
-  -webkit-animation: cair 21s linear infinite;
-          animation: cair 21s linear infinite;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
-}
-.flake:nth-child(4) {
-  --size: 1.2vw;
-  --left-in: 5vw;
-  --left-out: -5vw;
-  left: 58vw;
-  -webkit-animation: cair 22s linear infinite;
-          animation: cair 22s linear infinite;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
-}
-.flake:nth-child(5) {
-  --size: 0.9vw;
   --left-in: 9vw;
-  --left-out: -7vw;
-  left: 6vw;
+  --left-out: -9vw;
+  left: 37vw;
   -webkit-animation: cair 14s linear infinite;
           animation: cair 14s linear infinite;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+.flake:nth-child(3) {
+  --size: 0.9vw;
+  --left-in: 3vw;
+  --left-out: -1vw;
+  left: 71vw;
+  -webkit-animation: cair 21s linear infinite;
+          animation: cair 21s linear infinite;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+}
+.flake:nth-child(4) {
+  --size: 0.3vw;
+  --left-in: 4vw;
+  --left-out: 6vw;
+  left: 89vw;
+  -webkit-animation: cair 7s linear infinite;
+          animation: cair 7s linear infinite;
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+}
+.flake:nth-child(5) {
+  --size: 1.2vw;
+  --left-in: -1vw;
+  --left-out: -7vw;
+  left: 26vw;
+  -webkit-animation: cair 11s linear infinite;
+          animation: cair 11s linear infinite;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
 }
 .flake:nth-child(6) {
   --size: 0.9vw;
   --left-in: 4vw;
-  --left-out: 0vw;
-  left: 93vw;
-  -webkit-animation: cair 18s linear infinite;
-          animation: cair 18s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
+  --left-out: -2vw;
+  left: 92vw;
+  -webkit-animation: cair 9s linear infinite;
+          animation: cair 9s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
 }
 .flake:nth-child(7) {
-  --size: 0.3vw;
+  --size: 1.2vw;
   --left-in: -3vw;
-  --left-out: 2vw;
-  left: 89vw;
+  --left-out: -6vw;
+  left: 42vw;
   -webkit-animation: cair 22s linear infinite;
           animation: cair 22s linear infinite;
-  -webkit-animation-delay: -5s;
-          animation-delay: -5s;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
 }
 .flake:nth-child(8) {
   --size: 0.3vw;
-  --left-in: -8vw;
-  --left-out: 7vw;
-  left: 60vw;
-  -webkit-animation: cair 22s linear infinite;
-          animation: cair 22s linear infinite;
-  -webkit-animation-delay: -10s;
-          animation-delay: -10s;
+  --left-in: -5vw;
+  --left-out: -8vw;
+  left: 30vw;
+  -webkit-animation: cair 18s linear infinite;
+          animation: cair 18s linear infinite;
+  -webkit-animation-delay: -18s;
+          animation-delay: -18s;
 }
 .flake:nth-child(9) {
-  --size: 0.3vw;
-  --left-in: -9vw;
-  --left-out: 8vw;
-  left: 42vw;
-  -webkit-animation: cair 19s linear infinite;
-          animation: cair 19s linear infinite;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
+  --size: 0.6vw;
+  --left-in: -2vw;
+  --left-out: -7vw;
+  left: 23vw;
+  -webkit-animation: cair 17s linear infinite;
+          animation: cair 17s linear infinite;
+  -webkit-animation-delay: -20s;
+          animation-delay: -20s;
 }
 .flake:nth-child(10) {
-  --size: 0.6vw;
-  --left-in: -7vw;
-  --left-out: -1vw;
-  left: 46vw;
-  -webkit-animation: cair 20s linear infinite;
-          animation: cair 20s linear infinite;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
+  --size: 0.3vw;
+  --left-in: -8vw;
+  --left-out: -3vw;
+  left: 50vw;
+  -webkit-animation: cair 18s linear infinite;
+          animation: cair 18s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
 }
 .flake:nth-child(11) {
   --size: 0.3vw;
-  --left-in: 7vw;
-  --left-out: -6vw;
-  left: 95vw;
-  -webkit-animation: cair 15s linear infinite;
-          animation: cair 15s linear infinite;
-  -webkit-animation-delay: -6s;
-          animation-delay: -6s;
+  --left-in: -1vw;
+  --left-out: 7vw;
+  left: 47vw;
+  -webkit-animation: cair 17s linear infinite;
+          animation: cair 17s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
 }
 .flake:nth-child(12) {
   --size: 1.2vw;
-  --left-in: -4vw;
-  --left-out: -4vw;
-  left: 38vw;
-  -webkit-animation: cair 17s linear infinite;
-          animation: cair 17s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
+  --left-in: -6vw;
+  --left-out: 5vw;
+  left: 20vw;
+  -webkit-animation: cair 11s linear infinite;
+          animation: cair 11s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
 }
 .flake:nth-child(13) {
   --size: 0.9vw;
-  --left-in: 1vw;
-  --left-out: 2vw;
-  left: 36vw;
-  -webkit-animation: cair 13s linear infinite;
-          animation: cair 13s linear infinite;
-  -webkit-animation-delay: -8s;
-          animation-delay: -8s;
+  --left-in: 7vw;
+  --left-out: 1vw;
+  left: 14vw;
+  -webkit-animation: cair 9s linear infinite;
+          animation: cair 9s linear infinite;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
 }
 .flake:nth-child(14) {
   --size: 0.3vw;
-  --left-in: -3vw;
-  --left-out: 6vw;
-  left: 20vw;
+  --left-in: 3vw;
+  --left-out: -8vw;
+  left: 5vw;
   -webkit-animation: cair 8s linear infinite;
           animation: cair 8s linear infinite;
   -webkit-animation-delay: -11s;
           animation-delay: -11s;
 }
 .flake:nth-child(15) {
-  --size: 0.3vw;
-  --left-in: -3vw;
-  --left-out: -2vw;
-  left: 42vw;
-  -webkit-animation: cair 7s linear infinite;
-          animation: cair 7s linear infinite;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
+  --size: 0.6vw;
+  --left-in: 5vw;
+  --left-out: 7vw;
+  left: 86vw;
+  -webkit-animation: cair 23s linear infinite;
+          animation: cair 23s linear infinite;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
 }
 .flake:nth-child(16) {
   --size: 1.2vw;
-  --left-in: 3vw;
-  --left-out: -1vw;
-  left: 51vw;
-  -webkit-animation: cair 16s linear infinite;
-          animation: cair 16s linear infinite;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
-}
-.flake:nth-child(17) {
-  --size: 0.6vw;
-  --left-in: -8vw;
-  --left-out: -2vw;
-  left: 21vw;
-  -webkit-animation: cair 11s linear infinite;
-          animation: cair 11s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-}
-.flake:nth-child(18) {
-  --size: 0.3vw;
-  --left-in: 1vw;
-  --left-out: 9vw;
-  left: 22vw;
-  -webkit-animation: cair 7s linear infinite;
-          animation: cair 7s linear infinite;
-  -webkit-animation-delay: -17s;
-          animation-delay: -17s;
-}
-.flake:nth-child(19) {
-  --size: 0.6vw;
-  --left-in: 6vw;
-  --left-out: -4vw;
-  left: 82vw;
-  -webkit-animation: cair 18s linear infinite;
-          animation: cair 18s linear infinite;
-  -webkit-animation-delay: -11s;
-          animation-delay: -11s;
-}
-.flake:nth-child(20) {
-  --size: 0.9vw;
-  --left-in: 1vw;
-  --left-out: -8vw;
-  left: 29vw;
-  -webkit-animation: cair 13s linear infinite;
-          animation: cair 13s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-}
-.flake:nth-child(21) {
-  --size: 0.6vw;
-  --left-in: 2vw;
-  --left-out: 2vw;
-  left: 58vw;
-  -webkit-animation: cair 11s linear infinite;
-          animation: cair 11s linear infinite;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-}
-.flake:nth-child(22) {
-  --size: 0.3vw;
-  --left-in: 2vw;
-  --left-out: 0vw;
-  left: 42vw;
-  -webkit-animation: cair 6s linear infinite;
-          animation: cair 6s linear infinite;
-  -webkit-animation-delay: -17s;
-          animation-delay: -17s;
-}
-.flake:nth-child(23) {
-  --size: 0.3vw;
-  --left-in: 7vw;
-  --left-out: -8vw;
-  left: 34vw;
-  -webkit-animation: cair 21s linear infinite;
-          animation: cair 21s linear infinite;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-}
-.flake:nth-child(24) {
-  --size: 0.3vw;
-  --left-in: -8vw;
-  --left-out: -1vw;
-  left: 42vw;
-  -webkit-animation: cair 23s linear infinite;
-          animation: cair 23s linear infinite;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
-}
-.flake:nth-child(25) {
-  --size: 0.3vw;
-  --left-in: 6vw;
-  --left-out: 8vw;
-  left: 28vw;
-  -webkit-animation: cair 10s linear infinite;
-          animation: cair 10s linear infinite;
-  -webkit-animation-delay: -17s;
-          animation-delay: -17s;
-}
-.flake:nth-child(26) {
-  --size: 0.9vw;
-  --left-in: -6vw;
-  --left-out: -9vw;
-  left: 20vw;
-  -webkit-animation: cair 15s linear infinite;
-          animation: cair 15s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-}
-.flake:nth-child(27) {
-  --size: 0.9vw;
-  --left-in: 10vw;
-  --left-out: -3vw;
-  left: 18vw;
-  -webkit-animation: cair 11s linear infinite;
-          animation: cair 11s linear infinite;
-  -webkit-animation-delay: -11s;
-          animation-delay: -11s;
-}
-.flake:nth-child(28) {
-  --size: 0.9vw;
-  --left-in: -9vw;
-  --left-out: -4vw;
-  left: 4vw;
+  --left-in: 4vw;
+  --left-out: -7vw;
+  left: 10vw;
   -webkit-animation: cair 7s linear infinite;
           animation: cair 7s linear infinite;
   -webkit-animation-delay: -8s;
           animation-delay: -8s;
 }
-.flake:nth-child(29) {
-  --size: 0.3vw;
+.flake:nth-child(17) {
+  --size: 0.9vw;
   --left-in: 5vw;
-  --left-out: 6vw;
-  left: 14vw;
-  -webkit-animation: cair 23s linear infinite;
-          animation: cair 23s linear infinite;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
+  --left-out: 2vw;
+  left: 57vw;
+  -webkit-animation: cair 7s linear infinite;
+          animation: cair 7s linear infinite;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
 }
-.flake:nth-child(30) {
+.flake:nth-child(18) {
   --size: 1.2vw;
-  --left-in: 5vw;
+  --left-in: -7vw;
+  --left-out: 9vw;
+  left: 4vw;
+  -webkit-animation: cair 6s linear infinite;
+          animation: cair 6s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+}
+.flake:nth-child(19) {
+  --size: 0.9vw;
+  --left-in: 0vw;
+  --left-out: 2vw;
+  left: 95vw;
+  -webkit-animation: cair 22s linear infinite;
+          animation: cair 22s linear infinite;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+.flake:nth-child(20) {
+  --size: 1.2vw;
+  --left-in: 8vw;
+  --left-out: 7vw;
+  left: 61vw;
+  -webkit-animation: cair 19s linear infinite;
+          animation: cair 19s linear infinite;
+  -webkit-animation-delay: -20s;
+          animation-delay: -20s;
+}
+.flake:nth-child(21) {
+  --size: 0.6vw;
+  --left-in: -3vw;
+  --left-out: 3vw;
+  left: 54vw;
+  -webkit-animation: cair 22s linear infinite;
+          animation: cair 22s linear infinite;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+}
+.flake:nth-child(22) {
+  --size: 0.9vw;
+  --left-in: -3vw;
   --left-out: 8vw;
-  left: 62vw;
-  -webkit-animation: cair 23s linear infinite;
-          animation: cair 23s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-}
-.flake:nth-child(31) {
-  --size: 1.2vw;
-  --left-in: -8vw;
-  --left-out: -9vw;
-  left: 31vw;
-  -webkit-animation: cair 18s linear infinite;
-          animation: cair 18s linear infinite;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-}
-.flake:nth-child(32) {
-  --size: 1.2vw;
-  --left-in: -5vw;
-  --left-out: -5vw;
-  left: 39vw;
+  left: 75vw;
   -webkit-animation: cair 24s linear infinite;
           animation: cair 24s linear infinite;
-  -webkit-animation-delay: -14s;
-          animation-delay: -14s;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
 }
-.flake:nth-child(33) {
+.flake:nth-child(23) {
+  --size: 0.9vw;
+  --left-in: -2vw;
+  --left-out: 1vw;
+  left: 43vw;
+  -webkit-animation: cair 10s linear infinite;
+          animation: cair 10s linear infinite;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.flake:nth-child(24) {
+  --size: 1.2vw;
+  --left-in: 8vw;
+  --left-out: -2vw;
+  left: 45vw;
+  -webkit-animation: cair 24s linear infinite;
+          animation: cair 24s linear infinite;
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+}
+.flake:nth-child(25) {
+  --size: 0.6vw;
+  --left-in: -6vw;
+  --left-out: -1vw;
+  left: 84vw;
+  -webkit-animation: cair 12s linear infinite;
+          animation: cair 12s linear infinite;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+.flake:nth-child(26) {
+  --size: 0.6vw;
+  --left-in: -5vw;
+  --left-out: -7vw;
+  left: 40vw;
+  -webkit-animation: cair 20s linear infinite;
+          animation: cair 20s linear infinite;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+.flake:nth-child(27) {
+  --size: 0.6vw;
+  --left-in: 8vw;
+  --left-out: -2vw;
+  left: 92vw;
+  -webkit-animation: cair 13s linear infinite;
+          animation: cair 13s linear infinite;
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+.flake:nth-child(28) {
   --size: 1.2vw;
   --left-in: -9vw;
   --left-out: -1vw;
-  left: 42vw;
+  left: 92vw;
+  -webkit-animation: cair 12s linear infinite;
+          animation: cair 12s linear infinite;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+}
+.flake:nth-child(29) {
+  --size: 0.9vw;
+  --left-in: -8vw;
+  --left-out: -5vw;
+  left: 91vw;
   -webkit-animation: cair 16s linear infinite;
           animation: cair 16s linear infinite;
   -webkit-animation-delay: -19s;
           animation-delay: -19s;
 }
-.flake:nth-child(34) {
-  --size: 0.3vw;
-  --left-in: 3vw;
-  --left-out: 3vw;
-  left: 94vw;
-  -webkit-animation: cair 16s linear infinite;
-          animation: cair 16s linear infinite;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
-}
-.flake:nth-child(35) {
-  --size: 0.9vw;
-  --left-in: -2vw;
-  --left-out: -3vw;
-  left: 52vw;
+.flake:nth-child(30) {
+  --size: 0.6vw;
+  --left-in: 0vw;
+  --left-out: -1vw;
+  left: 21vw;
   -webkit-animation: cair 9s linear infinite;
           animation: cair 9s linear infinite;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
 }
-.flake:nth-child(36) {
-  --size: 0.6vw;
-  --left-in: -5vw;
-  --left-out: 5vw;
-  left: 53vw;
-  -webkit-animation: cair 6s linear infinite;
-          animation: cair 6s linear infinite;
+.flake:nth-child(31) {
+  --size: 0.3vw;
+  --left-in: -7vw;
+  --left-out: -6vw;
+  left: 9vw;
+  -webkit-animation: cair 8s linear infinite;
+          animation: cair 8s linear infinite;
   -webkit-animation-delay: -1s;
           animation-delay: -1s;
 }
-.flake:nth-child(37) {
-  --size: 0.9vw;
-  --left-in: 2vw;
-  --left-out: 4vw;
-  left: 100vw;
-  -webkit-animation: cair 25s linear infinite;
-          animation: cair 25s linear infinite;
-  -webkit-animation-delay: -15s;
-          animation-delay: -15s;
-}
-.flake:nth-child(38) {
-  --size: 0.9vw;
-  --left-in: -8vw;
-  --left-out: -5vw;
-  left: 75vw;
-  -webkit-animation: cair 14s linear infinite;
-          animation: cair 14s linear infinite;
-  -webkit-animation-delay: -16s;
-          animation-delay: -16s;
-}
-.flake:nth-child(39) {
+.flake:nth-child(32) {
   --size: 1.2vw;
-  --left-in: 10vw;
-  --left-out: 0vw;
-  left: 67vw;
-  -webkit-animation: cair 19s linear infinite;
-          animation: cair 19s linear infinite;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
+  --left-in: -2vw;
+  --left-out: 8vw;
+  left: 35vw;
+  -webkit-animation: cair 7s linear infinite;
+          animation: cair 7s linear infinite;
+  -webkit-animation-delay: -18s;
+          animation-delay: -18s;
 }
-.flake:nth-child(40) {
-  --size: 0.9vw;
-  --left-in: 4vw;
-  --left-out: 6vw;
-  left: 14vw;
-  -webkit-animation: cair 6s linear infinite;
-          animation: cair 6s linear infinite;
-  -webkit-animation-delay: -9s;
-          animation-delay: -9s;
+.flake:nth-child(33) {
+  --size: 0.3vw;
+  --left-in: -6vw;
+  --left-out: 8vw;
+  left: 9vw;
+  -webkit-animation: cair 9s linear infinite;
+          animation: cair 9s linear infinite;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
 }
-.flake:nth-child(41) {
+.flake:nth-child(34) {
   --size: 0.6vw;
-  --left-in: 7vw;
-  --left-out: 9vw;
-  left: 8vw;
-  -webkit-animation: cair 16s linear infinite;
-          animation: cair 16s linear infinite;
+  --left-in: 9vw;
+  --left-out: 5vw;
+  left: 90vw;
+  -webkit-animation: cair 7s linear infinite;
+          animation: cair 7s linear infinite;
   -webkit-animation-delay: -4s;
           animation-delay: -4s;
 }
-.flake:nth-child(42) {
-  --size: 0.9vw;
-  --left-in: 3vw;
+.flake:nth-child(35) {
+  --size: 0.6vw;
+  --left-in: 6vw;
+  --left-out: -6vw;
+  left: 70vw;
+  -webkit-animation: cair 20s linear infinite;
+          animation: cair 20s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+}
+.flake:nth-child(36) {
+  --size: 1.2vw;
+  --left-in: -8vw;
+  --left-out: -9vw;
+  left: 100vw;
+  -webkit-animation: cair 8s linear infinite;
+          animation: cair 8s linear infinite;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+.flake:nth-child(37) {
+  --size: 1.2vw;
+  --left-in: 1vw;
+  --left-out: 6vw;
+  left: 63vw;
+  -webkit-animation: cair 13s linear infinite;
+          animation: cair 13s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+}
+.flake:nth-child(38) {
+  --size: 0.3vw;
+  --left-in: 7vw;
+  --left-out: 6vw;
+  left: 31vw;
+  -webkit-animation: cair 9s linear infinite;
+          animation: cair 9s linear infinite;
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.flake:nth-child(39) {
+  --size: 1.2vw;
+  --left-in: -2vw;
   --left-out: 4vw;
-  left: 17vw;
+  left: 41vw;
+  -webkit-animation: cair 18s linear infinite;
+          animation: cair 18s linear infinite;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+}
+.flake:nth-child(40) {
+  --size: 0.6vw;
+  --left-in: -3vw;
+  --left-out: -2vw;
+  left: 40vw;
+  -webkit-animation: cair 10s linear infinite;
+          animation: cair 10s linear infinite;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+}
+.flake:nth-child(41) {
+  --size: 0.6vw;
+  --left-in: -2vw;
+  --left-out: -4vw;
+  left: 71vw;
+  -webkit-animation: cair 14s linear infinite;
+          animation: cair 14s linear infinite;
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+}
+.flake:nth-child(42) {
+  --size: 0.6vw;
+  --left-in: 3vw;
+  --left-out: 9vw;
+  left: 60vw;
+  -webkit-animation: cair 8s linear infinite;
+          animation: cair 8s linear infinite;
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+.flake:nth-child(43) {
+  --size: 0.6vw;
+  --left-in: 0vw;
+  --left-out: 1vw;
+  left: 35vw;
+  -webkit-animation: cair 10s linear infinite;
+          animation: cair 10s linear infinite;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+}
+.flake:nth-child(44) {
+  --size: 0.9vw;
+  --left-in: -6vw;
+  --left-out: 2vw;
+  left: 44vw;
+  -webkit-animation: cair 11s linear infinite;
+          animation: cair 11s linear infinite;
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+}
+.flake:nth-child(45) {
+  --size: 0.3vw;
+  --left-in: 4vw;
+  --left-out: 5vw;
+  left: 69vw;
+  -webkit-animation: cair 13s linear infinite;
+          animation: cair 13s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+}
+.flake:nth-child(46) {
+  --size: 0.6vw;
+  --left-in: -1vw;
+  --left-out: 5vw;
+  left: 84vw;
   -webkit-animation: cair 11s linear infinite;
           animation: cair 11s linear infinite;
   -webkit-animation-delay: -14s;
           animation-delay: -14s;
 }
-.flake:nth-child(43) {
-  --size: 0.9vw;
-  --left-in: -1vw;
-  --left-out: 10vw;
-  left: 9vw;
-  -webkit-animation: cair 23s linear infinite;
-          animation: cair 23s linear infinite;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-}
-.flake:nth-child(44) {
-  --size: 0.9vw;
-  --left-in: -7vw;
-  --left-out: -1vw;
-  left: 83vw;
-  -webkit-animation: cair 18s linear infinite;
-          animation: cair 18s linear infinite;
-  -webkit-animation-delay: -13s;
-          animation-delay: -13s;
-}
-.flake:nth-child(45) {
-  --size: 0.6vw;
-  --left-in: -2vw;
-  --left-out: 4vw;
-  left: 80vw;
-  -webkit-animation: cair 23s linear infinite;
-          animation: cair 23s linear infinite;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
-}
-.flake:nth-child(46) {
-  --size: 0.6vw;
-  --left-in: -6vw;
-  --left-out: -8vw;
-  left: 31vw;
-  -webkit-animation: cair 12s linear infinite;
-          animation: cair 12s linear infinite;
-  -webkit-animation-delay: -7s;
-          animation-delay: -7s;
-}
 .flake:nth-child(47) {
-  --size: 0.3vw;
-  --left-in: 1vw;
-  --left-out: 1vw;
-  left: 22vw;
-  -webkit-animation: cair 16s linear infinite;
-          animation: cair 16s linear infinite;
-  -webkit-animation-delay: -10s;
-          animation-delay: -10s;
+  --size: 1.2vw;
+  --left-in: -9vw;
+  --left-out: 3vw;
+  left: 65vw;
+  -webkit-animation: cair 6s linear infinite;
+          animation: cair 6s linear infinite;
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
 }
 .flake:nth-child(48) {
   --size: 0.9vw;
-  --left-in: 1vw;
-  --left-out: -8vw;
-  left: 7vw;
-  -webkit-animation: cair 19s linear infinite;
-          animation: cair 19s linear infinite;
-  -webkit-animation-delay: -1s;
-          animation-delay: -1s;
+  --left-in: -3vw;
+  --left-out: 5vw;
+  left: 16vw;
+  -webkit-animation: cair 13s linear infinite;
+          animation: cair 13s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
 }
 .flake:nth-child(49) {
   --size: 0.6vw;
-  --left-in: -5vw;
-  --left-out: -5vw;
-  left: 64vw;
-  -webkit-animation: cair 15s linear infinite;
-          animation: cair 15s linear infinite;
-  -webkit-animation-delay: -19s;
-          animation-delay: -19s;
-}
-.flake:nth-child(50) {
-  --size: 0.3vw;
-  --left-in: 2vw;
-  --left-out: -9vw;
-  left: 68vw;
+  --left-in: 5vw;
+  --left-out: 5vw;
+  left: 11vw;
   -webkit-animation: cair 21s linear infinite;
           animation: cair 21s linear infinite;
-  -webkit-animation-delay: -20s;
-          animation-delay: -20s;
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+}
+.flake:nth-child(50) {
+  --size: 1.2vw;
+  --left-in: -8vw;
+  --left-out: 1vw;
+  left: 32vw;
+  -webkit-animation: cair 7s linear infinite;
+          animation: cair 7s linear infinite;
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
 }
 
 @-webkit-keyframes cair {
