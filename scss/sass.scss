@@ -9,3 +9,12 @@ body{
   background: linear-gradient(-5deg, #00DBDE 0%, #FC00FF 95%) no-repeat;
 }
 
+.flake {
+  --size: 2vw;
+  width: var(--size);
+  height: var(--size);
+  background: blanchedalmond;
+  border-radius: 50%;
+  position: absolute;
+  top: 5vh;
+}
