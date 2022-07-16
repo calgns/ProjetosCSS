@@ -1,5 +1,5 @@
 # ProjetosCSS
-### Aqui terá Folhas de estilo das quais eu vi que eram importantes de se guardar, caso, eu as queira usar no futuro.
+### Aqui terá Folhas de estilo das quais eu vi que eram importantes de se guardar.
 
 
 <br/>
