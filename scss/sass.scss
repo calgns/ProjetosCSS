@@ -16,5 +16,25 @@ body{
   background: blanchedalmond;
   border-radius: 50%;
   position: absolute;
-  top: 5vh;
+  top: -5vh;
+
+  @for $i from 1 through 50 {
+    &:nth-child(#{$i}){
+      --size: #{random(4) * 0.3}vw;
+      --left-in: #{random(20)-10}vw;
+      --left-out: #{random(20)-10}vw;
+      left: #{random(100)}vw;
+      animation: cair #{5 + random(20)}s linear infinite;
+      animation-delay: -#{random(20)}s;
+    }
+  }
+}
+
+@keyframes cair {
+  0% {
+    transform: translate3d(var(--left-in), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-out), 120vh, 0);
+  }
 }
