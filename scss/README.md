@@ -6,13 +6,13 @@
 <br/>
 <h2>Efeito Nevando</h2>
 
-<div style="width:600px; height:600px;">
+<div style="height:350px;">
   <img src="../imgs/scss/snowing.gif" alt="Rainbow Loader">
 </div>
 
 # receita de Flocos De Neve
 
-## Criando fundo Chamativo
+## Criar fundo Chamativo
 
 ```scss
 @charset "utf-8";
@@ -62,10 +62,23 @@ body{
 ```
 #### o --size está vinculado a width e height o que significa que se você o altera em qulquer parte do codigo a width e height daquela parte especifica vai ser alterada.
 
-#### o $odds está adicionando o efeito de desfoque, embaçar a cada 1 floco dando o valor 2px, a cada 3 com valor de 4px e por ai vai até de 7 em sete.
+#### o $odds está adicionando o efeito de desfoque, embaçar a cada 1 floco dando o valor 2px, a cada 3 com valor de 4px e por ai vai até de 7 em 7.
 
-#### o @for está add uma posição aleatoria para cada um deles alem de estar chamando a animation.
+#### o @for dá uma posição aleatoria para cada um dos flocos, além de estar chamando a animation.
+
+<br/>
+
+## aplique animação
 
 ```scss
 
+@keyframes cair {
+  0% {
+    transform: translate3d(var(--left-in), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-out), 120vh, 0);
+  }
+}
 ```
+#### anima tudo e cada floco que possui a var left em seu codigo vai comçar e terminar em uma posição diferente.
